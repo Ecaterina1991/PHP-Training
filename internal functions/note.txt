@@ -1,0 +1,7 @@
+echo substr($string, 2, -2);
+
+incepem numaratoarea index nr 2 start pentru cifra doi ca si al doilea parametru, apoi -2 va incepe numaratoarea de la sfarsitul stringului astfel incat se vor afisa toate literele stringului de la indexul nr 2 si pana la ultimele doua litere
+
+https://www.youtube.com/watch?v=vxSkDk6x9-o&list=PL0eyrZgxdwhwwQQZA79OzYwl5ewA7HQih&index=11&ab_channel=DaniKrossing
+
+minutul 8:27
