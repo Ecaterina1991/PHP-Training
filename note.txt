@@ -12,7 +12,7 @@ vom folosi o conditie
 
 de fiecare data cand vrem sa dam submit data catre alta pagina trebuie sa rulam aceasta conditie
 
-
+if($_SERVER["REQUEST_METHOD"] == "POST") 
 
 pentru ca ea trebuie sa fie verificata de fiecare data. dupa ce finalizam, intram in conditie si aici vrem sa luam datele
 
