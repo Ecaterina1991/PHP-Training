@@ -10,7 +10,7 @@ completez datele, dau submit si nu se intampla nimic
 ne ducem in formhandler.php si verificam daca utilizatorul a folosit acest fisier intr-un mod particular
 vom folosi o conditie
 
-de fiecare data cand vrem sa dam submit data catre alat pagina trebuie sa rulam aceasta conditie
+de fiecare data cand vrem sa dam submit data catre alta pagina trebuie sa rulam aceasta conditie
 
 
 
@@ -26,7 +26,7 @@ o regula de baza este sa nu ai incredere niciodata in ce da submit utilizatorul 
   $lastname = htmlspecialchars($_POST["lastname"]);
   $favouritepet = htmlspecialchars($_POST["favourotepet"]);
 
-  in acest boc de cod numele variabilelor pot fi oricare doar ca este bine sa fie descriptive ca sa intelegem noi cu ce lucram
+  in acest bloc de cod numele variabilelor pot fi oricare doar ca este bine sa fie descriptive ca sa intelegem noi cu ce lucram
 
   header("Location: ./form.php");
 
