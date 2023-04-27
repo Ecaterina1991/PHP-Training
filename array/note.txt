@@ -1,0 +1,7 @@
+$fruits[] = 
+
+cu aceasta sintaxa fac referire la aceea ca fruits este un array si ii atribui "Orange", adica il adauga arrayului la sfarsit.
+
+array_splice($fruits, 0, 1)
+
+steregere array  - prima valoare arrayul, a doua valoare indexul incepand cu care stergem, ultima valoare lungimea (nr de elemente sterse in arary). in cazul de fata stergem doar primul element.
