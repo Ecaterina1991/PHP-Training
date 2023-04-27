@@ -1,0 +1,17 @@
+$result = match () {
+
+};
+
+adaugam punct si virgula la sfarsit pentru ca e ca si cum am crea o variabila/ verificam ceva anume
+
+$result = match ($a) {
+
+};
+
+daca variabila a este egala cu ceva specific, atunci returnam valoarea in variabila result in functie de variabila a
+
+la sfarsit ramane virgula inainte de acolada de inchidere
+
+1, 4, 7 => "Variable a is equal to one!",
+
+putem specifica mai multe valori separate cu virgula
