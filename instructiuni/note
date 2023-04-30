@@ -1,3 +1,88 @@
+$numbers = array(345,344,564,454,897,5468);
+
+foreach($numbers as $number) {
+
+  echo $number . "<br>";
+
+}
+
+
+foreach($numbers as $number) {
+
+}
+
+pentru arrayul $numbers, pentru fiecare element al array-ului $numbers se va crea cate o variabila numita $number
+
+
+
+
+
+..........................
+
+for($counter = 0; $counter < 10; $counter++) {
+   echo $counter . "<br>" ;
+}
+
+
+for($counter = 0;) {
+
+}
+
+//in aceasta sintaxa punem punct si virgula dupa zero ca sa finalizam instructiunea. aici avem indexul/initializatorul
+
+$counter = 0;
+
+while($counter < 10) {
+  echo "hello Student";
+  // $counter = $counter + 1;
+  $counter++;
+  }
+
+
+..............................
+
+$number = 100;
+
+switch($number) {
+  case 34: 
+    echo "is it 34";
+    break;
+  case 37: 
+    echo "is it 34";
+    break;
+  case 35: 
+    echo "is it 34";
+    break;
+  case 24: 
+    echo "is it 34";
+    break;
+  case 20: 
+    echo "is it 34";
+    break;
+
+    default: 
+    echo "we could not find anything";
+    break;
+}
+..........................
+
+
+if(4 === 4 && 5 < 10) {
+  echo "it is true";
+}
+
+
+
+
+if(3 > 10) {
+echo "three is less than ten";
+
+} elseif( 4 < 5 ) {
+echo "of course ";
+}
+else{
+  echo "it is not";
+}
 
 ........................
 
