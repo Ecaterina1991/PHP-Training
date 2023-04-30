@@ -9,121 +9,32 @@
 <body>
 
 <?php
+// 1. Fa doua variabile numite number1 si number2 si seteaza una la valoarea de 10 si cealalta la valoarea de 20:
 
-$food = [
-  "fruits" => array("apple", "banana", "cherry"),
-   "meat" => array("chicken", "fish"),
-   "vegetables" => array("cucumber", "carrot"),
-   "vegetables2" => ["cucumber2", "carrot"],
-];
+$number1 = 10;
+$number2 = 20;
 
-echo $food["vegetables2"][0];
+//2. Aduna doua variabile si afiseaza suma cu echo:
 
-// $food = [
-//   array("apple", "mango"),
-//   "banana",
-//   "cherry"
-// ];
+$sum = $number1 + $number2;
+echo $sum;
 
-// echo $food[1];
+//3. Fa doua Array-uri cu aceleasi valori, unul obisnuit si celalalt asociativ
 
+$literatura = ['Oameni de hartie', 'Solenoid', 'Parfumul'];
 
+echo $literatura[0];
+echo "<br>";
+$literatura2 = array('Oameni de hartie', 'Solenoid', 'Parfumul');
+echo $literatura2[1];
 
-// $fruits = ["Apple", "Banana", "Cherry"];
-// $test = ["Mango", "Strawberry"];
+echo "<br>";
 
-// array_splice($fruits, 1, 0, $test);
-// print_r($fruits);
-
-//lui Mango i-am spus sa fie depozitat in index nr 1; 0 din pozitia trei semnifica aceea ca vor fi sterse zero elemente
-
-//adaugam un element nou la array
-// array_push($fruits, "Mango");
-//O alternativa cu care putem adauga un element nou in array
-// $fruits[] = "Mango";
-// print_r($fruits);
-
-// $tasks = [
-//   "laundry" => "Daniel",
-//   "trash" => "Frida",
-//   "vacuum" => "Basse",
-//   "dishes" => "Bella",
-// ];
-
-// echo $tasks["laundry"];
-
-// print_r($tasks);
-//echo count($tasks);  returneza numarul elementelor cheie valoare
-//sort($tasks);  ordoneaza aflabetic elementele
-// $tasks[] = "Tara";
-// $tasks["dusting"] = "Tara";
-// print_r($tasks);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// $fruits = array("Apple", "Banana", "Cherry");
-// $fruits = ["Apple", "Banana", "Cherry"];
-
-
-// $fruits[] = "Orange";
-// echo $fruits[3];
-
-//replace - in loc de Banana vine Some Fruit
-// $fruits[1] = "Some Fruit";
-
-// echo $fruits[1];
-
-//DELETE
-
-// unset($fruits[1]); ----- nu este o idee buna a se folosi
-
-// echo $fruits[1];
-
-// array_splice($fruits, 0, 1);
-// echo $fruits[0];
-
+$literaturaAutori = ['Oameni de hartie' => 'Salvador Plascenscia', 'Solenoid' => 'Mircea Cartarescu', 'Parfumul' => 'Patrick Suskind'];
+print_r($literaturaAutori);
 ?>
+
+
   
 </body>
 </html>

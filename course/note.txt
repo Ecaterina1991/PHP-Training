@@ -1,0 +1,4 @@
+variabilele sunt case sensitive. o variabila cu majuscule nu este aceeasi cu una scrisa cu litere mici.
+
+putem atribui taguri html variabilelor.
+putem atribui imagini variabilelor, dar putem atribui o singura valoare o data.

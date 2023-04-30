@@ -1,0 +1,8 @@
+Conditii:
+
+$html = <<<HTML
+<div style="#S#">#I#</div>
+HTML;
+
+$divNum = 10;
+$style = "border: 1px solid black; background: yellow; margin: 5px; padding: 4px;";

@@ -10,8 +10,21 @@
 
 <?php
 
+echo 56 + 44;
+echo "<br>";
+echo 200-20;
+echo "<br>";
+echo 100/60;
+echo "<br>";
+echo "<br>";
+echo 45 + 34 *45 / 523 -12;
+echo "<br>";
+echo (5 + 5) *10;
+echo "<br>";
+$number1 = 12;
+$number2 = 24;
 
-
+echo $number1 * $number2;
 
 ?>
   
