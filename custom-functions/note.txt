@@ -1,0 +1,153 @@
+echo "<br>";
+
+
+....................
+
+
+
+..................
+<?php
+//1. defineste o functie si fa-o sa returneze calculul a doua numere
+
+function calcul() {
+  $sum = 4 + 6;
+  return $sum;
+}
+
+$result = calcul();
+echo $result;
+//multumesc
+
+echo "<br>";
+
+//2. fa o functie care trece parametri si apeleaz-o utilizand valorile parametrilor
+
+function parametriUtilizati($a, $b, $c) {
+echo "Am invatat $a, $b, $c, si acum invat PHP!";
+}
+
+parametriUtilizati("HTML", "CSS", "JavaScript");
+echo "<br>";
+parametriUtilizati("telenovele", "distractie", "cocktailuri rebele");
+//multumesc
+?>
+..............................
+
+<?php
+$number = 10;
+echo $number . "<br>";
+
+define("NAME", 1000);
+
+echo "NAME";
+
+?>
+  
+
+
+
+
+..................
+<?php
+
+$x = "outside"; //global
+
+function convert() {
+
+global $x; // cu aceasta sintaxa declaram variabila ca fiind globala
+
+  $x = "inside"; //local
+}
+
+echo $x; // acest echo citeste prima variabila, cea globala, pentru ca functia inca nu a fost apelata.
+
+echo "<br>";
+
+convert();
+
+echo $x;
+echo $x;
+
+?>
+
+.....................
+
+<?php
+
+function addNumbers($number1, $number2) {
+  $sum = $number1 + $number2;
+  return $sum;
+}
+
+$result = addNumbers(34, 64);
+
+echo $result;
+
+echo "<br>";
+
+$result = addNumbers(100, $result);
+echo $result;  //in acelasi timp este un exemplu in care schimbam valoarea unei variabile
+//atribuirea valorilor se face de la dreapta la stanga, deci prima valoare atribuita lui result(nr2) va fi 198 (suma celor doua argumente din primul result) si a doua va fi 100
+
+echo "<br>";
+
+$result = addNumbers(3000, $result);
+echo $result;
+
+?>
+
+<?php
+
+function addNumbers( $number1, $number2) {
+
+ $sum = $number1 + $number2;
+ echo $sum;
+
+}
+
+addNumbers(12, 24);
+?>
+
+<!-- <?php
+function greeting($message) {
+echo $message;
+}
+
+greeting("Hello Student");
+
+?> -->
+
+..........................
+
+function init() {
+  say_Something();
+  echo "<br>";
+  calculate();
+}
+
+init();
+
+echo "<br>";
+
+
+
+
+function calculate() {
+  echo 456 + 345;
+}
+calculate();
+
+
+
+
+function say_Something() {
+
+echo "Hello student, do you like the class? yes? ok";
+}
+
+
+say_Something();
+
+init();
+
+functiile organizeaza continutul in blocuri de cod care pot fi reutilizate
